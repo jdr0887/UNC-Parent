@@ -38,8 +38,21 @@
   <scm>
     <developerConnection>scm:git:ssh://code.renci.org/gitroot/unc_parent</developerConnection>
     <connection>scm:git:ssh://code.renci.org/gitroot/unc_parent</connection>
-    <tag>HEAD</tag>
   </scm>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>unc.plugin.repository</id>
+      <name>UNC Plugin Repository</name>
+      <url>http://archiva.renci.org:8080/repository/internal</url>
+      <layout>default</layout>
+      <snapshots>
+	<enabled>true</enabled>
+      </snapshots>
+      <releases>
+	<enabled>true</enabled>
+      </releases>
+    </pluginRepository>
+  </pluginRepositories>
   <repositories>
     <repository>
       <id>unc.repository</id>
