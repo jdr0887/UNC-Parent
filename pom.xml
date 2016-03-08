@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.unc</groupId>
   <artifactId>parent</artifactId>
-  <version>0.0.5-SNAPSHOT</version>
+  <version>0.0.5</version>
   <packaging>pom</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,6 +39,7 @@
     <url>https://github.com/jdr0887/UNC-Parent</url>
     <developerConnection>scm:git:git@github.com:jdr0887/UNC-Parent.git</developerConnection>
     <connection>scm:git:git@github.com:jdr0887/UNC-Parent.git</connection>
+    <tag>parent-0.0.5</tag>
   </scm>
   <pluginRepositories>
     <pluginRepository>
