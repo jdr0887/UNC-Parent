@@ -36,9 +36,9 @@
     </license>
   </licenses>
   <scm>
-    <developerConnection>scm:git:ssh://code.renci.org/gitroot/unc_parent</developerConnection>
-    <connection>scm:git:ssh://code.renci.org/gitroot/unc_parent</connection>
-    <tag>HEAD</tag>
+    <url>https://github.com/jdr0887/UNC-Parent</url>
+    <developerConnection>scm:git:git://github.com/UNC-Parent.git</developerConnection>
+    <connection>scm:git:git://github.com/UNC-Parent.git</connection>
   </scm>
   <pluginRepositories>
     <pluginRepository>
@@ -155,55 +155,9 @@
       </plugin>
       <plugin>
 	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-compiler-plugin</artifactId>
-	<configuration>
-	  <source>1.7</source>
-	  <target>1.7</target>
-	</configuration>
-      </plugin>
-      <plugin>
-	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-surefire-plugin</artifactId>
 	<configuration>
 	  <skip>true</skip>
-	</configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
-	<executions>
-	  <execution>
-            <id>attach-descriptor</id>
-            <goals>
-              <goal>attach-descriptor</goal>
-            </goals>
-          </execution>
-        </executions>
-	<configuration>
-	  <reportPlugins>
-	    <plugin>
-	      <groupId>org.apache.maven.plugins</groupId>
-	      <artifactId>maven-project-info-reports-plugin</artifactId>
-	      <version>${maven.project.info.reports.plugin.version}</version>
-	      <configuration>
-		<dependencyDetailsEnabled>false</dependencyDetailsEnabled>
-		<dependencyLocationsEnabled>false</dependencyLocationsEnabled>
-	      </configuration>
-	      <reports>
-		<report>scm</report>
-		<report>summary</report>
-		<report>issue-tracking</report>
-		<report>license</report>
-		<report>dependency-convergence</report>
-		<report>project-team</report>
-		<report>mailing-list</report>
-		<!-- <report>distribution-management</report> -->
-		<report>index</report>
-		<report>cim</report>
-		<!-- <report>dependency-management</report> -->
-	      </reports>
-	    </plugin>
-	  </reportPlugins>
 	</configuration>
       </plugin>
     </plugins>
