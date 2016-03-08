@@ -37,8 +37,8 @@
   </licenses>
   <scm>
     <url>https://github.com/jdr0887/UNC-Parent</url>
-    <developerConnection>scm:git:git://github.com/jdr0887/UNC-Parent.git</developerConnection>
-    <connection>scm:git:git://github.com/jdr0887/UNC-Parent.git</connection>
+    <developerConnection>scm:git:git@github.com:jdr0887/UNC-Parent.git</developerConnection>
+    <connection>scm:git:git@github.com:jdr0887/UNC-Parent.git</connection>
   </scm>
   <pluginRepositories>
     <pluginRepository>
