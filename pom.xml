@@ -23,6 +23,8 @@
     <maven.resources.plugin.version>3.0.1</maven.resources.plugin.version>
     <maven.war.plugin.version>2.6</maven.war.plugin.version>
     <maven.site.plugin.version>3.5.1</maven.site.plugin.version>
+    <maven.resources.plugin.version>3.0.1</maven.resources.plugin.version>
+    <maven.plugin.plugin.version>3.5</maven.plugin.plugin.version>
   </properties>
   <organization>
     <name>UNC</name>
@@ -104,6 +106,16 @@
   <build>
     <pluginManagement>
       <plugins>
+	<plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-plugin-plugin</artifactId>
+          <version>${maven.plugin.plugin.version}</version>	  
+	</plugin>
+	<plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+	  <version>${maven.resources.plugin.version}</version>	  
+	</plugin>		
 	<plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
